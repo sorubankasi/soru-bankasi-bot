@@ -1,0 +1,186 @@
+{
+  "dersler": {
+    "1": {
+      "ad": "Matematik",
+      "sinavlar": {
+        "1": {
+          "ad": "AYT",
+          "konular": {
+            "1": {
+              "ad": "Fonksiyonlar",
+              "alt_konular": {
+                "1": "Fonksiyon Tanımı",
+                "2": "Görüntü Kümesi",
+                "3": "Parçalı Fonksiyonlar",
+                "4": "Bileşke Fonksiyon",
+                "5": "Ters Fonksiyon",
+                "6": "Artan-Azalan Fonksiyon"
+              }
+            },
+            "2": {
+              "ad": "Türev",
+              "alt_konular": {
+                "1": "Türev Tanımı",
+                "2": "Türev Kuralları",
+                "3": "Zincir Kuralı",
+                "4": "Türev Uygulamaları",
+                "5": "Maksimum-Minimum",
+                "6": "L'Hospital Kuralı"
+              }
+            },
+            "3": {
+              "ad": "İntegral",
+              "alt_konular": {
+                "1": "Belirsiz İntegral",
+                "2": "Belirli İntegral",
+                "3": "Alan Hesabı",
+                "4": "Hacim Hesabı",
+                "5": "Kısmi İntegrasyon"
+              }
+            },
+            "4": {
+              "ad": "Limit",
+              "alt_konular": {
+                "1": "Limit Tanımı",
+                "2": "Süreklilik",
+                "3": "Belirsizlik Durumları",
+                "4": "Trigonometrik Limitler"
+              }
+            }
+          }
+        },
+        "2": {
+          "ad": "TYT",
+          "konular": {
+            "1": {
+              "ad": "Temel Matematik",
+              "alt_konular": {
+                "1": "Sayılar",
+                "2": "Bölme-Bölünebilme",
+                "3": "EBOB-EKOK",
+                "4": "Rasyonel Sayılar",
+                "5": "Basit Eşitsizlikler"
+              }
+            },
+            "2": {
+              "ad": "Problemler",
+              "alt_konular": {
+                "1": "Sayı Problemleri",
+                "2": "Yaş Problemleri",
+                "3": "İşçi Problemleri",
+                "4": "Hareket Problemleri",
+                "5": "Yüzde Problemleri"
+              }
+            }
+          }
+        },
+        "3": {
+          "ad": "KPSS",
+          "konular": {
+            "1": {
+              "ad": "Sayısal Yetenek",
+              "alt_konular": {
+                "1": "Sayı Basamakları",
+                "2": "Mod Aritmetiği",
+                "3": "Permütasyon",
+                "4": "Kombinasyon",
+                "5": "Olasılık"
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "ad": "Fizik",
+      "sinavlar": {
+        "1": {
+          "ad": "AYT",
+          "konular": {
+            "1": {
+              "ad": "Kuvvet ve Hareket",
+              "alt_konular": {
+                "1": "Vektörler",
+                "2": "Bağıl Hareket",
+                "3": "Newton Yasaları",
+                "4": "İş-Güç-Enerji",
+                "5": "İtme-Momentum"
+              }
+            },
+            "2": {
+              "ad": "Elektrik",
+              "alt_konular": {
+                "1": "Elektrik Yükleri",
+                "2": "Elektrik Alan",
+                "3": "Elektrik Potansiyel",
+                "4": "Kondansatörler",
+                "5": "Elektrik Devreleri"
+              }
+            }
+          }
+        },
+        "2": {
+          "ad": "TYT",
+          "konular": {
+            "1": {
+              "ad": "Fizik Bilimine Giriş",
+              "alt_konular": {
+                "1": "Fiziksel Niceliklerin Sınıflandırılması",
+                "2": "Birim Sistemleri",
+                "3": "Bilimsel Gösterim"
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "ad": "Kimya",
+      "sinavlar": {
+        "1": {
+          "ad": "AYT",
+          "konular": {
+            "1": {
+              "ad": "Kimya ve Elektrik",
+              "alt_konular": {
+                "1": "İndirgenme-Yükseltgenme",
+                "2": "Elektroliz",
+                "3": "Piller",
+                "4": "Korozyon"
+              }
+            },
+            "2": {
+              "ad": "Organik Kimya",
+              "alt_konular": {
+                "1": "Hidrokarbonlar",
+                "2": "Alkoller",
+                "3": "Eterler",
+                "4": "Aldehit-Keton",
+                "5": "Karboksilik Asitler"
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "ad": "Biyoloji",
+      "sinavlar": {
+        "1": {
+          "ad": "AYT",
+          "konular": {
+            "1": {
+              "ad": "Hücre",
+              "alt_konular": {
+                "1": "Hücre Teorisi",
+                "2": "Hücre Zarı",
+                "3": "Organeller",
+                "4": "Hücre Döngüsü"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
