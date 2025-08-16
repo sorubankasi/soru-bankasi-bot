@@ -29,6 +29,25 @@ from googleapiclient.errors import HttpError
 from PIL import Image
 from PyPDF2 import PdfMerger
 import tempfile
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
+
+class HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b'Bot is running')
+    
+    def log_message(self, format, *args):
+        pass 
+
+def run_health_server():
+    port = int(os.environ.get('PORT', 10000))
+    server = HTTPServer(('0.0.0.0', port), HealthHandler)
+    thread = threading.Thread(target=server.serve_forever)
+    thread.daemon = True
+    thread.start()
+    print(f"Health check server running on port {port}")
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -541,4 +560,5 @@ if __name__ == '__main__':
     bot = SoruBankasiBot(TELEGRAM_TOKEN)
     print("✅ Bot başlatılıyor...")
     print("Durdurmak için Ctrl+C")
+    run_health_server()
     bot.run()
