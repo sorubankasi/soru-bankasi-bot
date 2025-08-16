@@ -517,16 +517,22 @@ Ders.Sınav.Konu.AltKonu
 
 if __name__ == '__main__':
     from dotenv import load_dotenv
+    import base64
+    
     load_dotenv()
     
     TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
     
     if not TELEGRAM_TOKEN:
         print("❌ TELEGRAM_TOKEN bulunamadı!")
-        print("Lütfen .env dosyasına ekleyin:")
-        print("TELEGRAM_TOKEN=your_bot_token_here")
         exit(1)
-        
+    
+    if os.getenv('GOOGLE_CREDENTIALS'):
+        google_creds_b64 = os.getenv('GOOGLE_CREDENTIALS')
+        with open('token.pickle', 'wb') as f:
+            f.write(base64.b64decode(google_creds_b64))
+        print("✅ Google credentials loaded from environment")
+    
     if not os.path.exists('token.pickle'):
         print("❌ token.pickle bulunamadı!")
         print("Önce 'python auth.py' çalıştırın")
